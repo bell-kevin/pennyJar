@@ -21,7 +21,7 @@ public class PennyJar {
         System.out.println("Clink!");
         this.pennies++;
         PennyJar.allPennies++;
-        if (allPennies >= goal) {
+        if (PennyJar.allPennies >= PennyJar.goal) {
             System.out.println("Time to spend!");
         }
     }
