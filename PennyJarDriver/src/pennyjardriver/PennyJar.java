@@ -1,9 +1,10 @@
 package pennyjardriver;
 
 public class PennyJar {
+
     private static int goal, allPennies = 0;
     private int pennies = 0;
-    
+
     public static void setGoal(int goal) {
         PennyJar.goal = goal;
     }
